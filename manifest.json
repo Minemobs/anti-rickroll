@@ -1,0 +1,18 @@
+{
+  "name": "Anti Rickroll",
+  "author": "minemobs",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://gist.githubusercontent.com/Minemobs/668fca6afcf895c9622358999c57c8fb/raw/863cdb0d40974e704bb39495e68ea9467dc75274/links.txt",
+    "*://*.youtube.com/*",
+    "*://*.youtu.be/*"
+  ]
+}
